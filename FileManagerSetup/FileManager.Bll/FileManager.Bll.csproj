@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5385B87E-7460-43E3-8AC8-4C95080BC7AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FileManager.Bll</RootNamespace>
+    <AssemblyName>FileManager.Bll</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthDomainBll.cs" />
+    <Compile Include="ADHelper.cs" />
+    <Compile Include="DirectoryEntry.cs" />
+    <Compile Include="ForderBll.cs" />
+    <Compile Include="FileBll.cs" />
+    <Compile Include="ManagerBll.cs" />
+    <Compile Include="SystemBll.cs" />
+    <Compile Include="SystemConfigBll.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerSysConfigBll.cs" />
+    <Compile Include="FileVersionBll.cs" />
+    <Compile Include="UserLogBll.cs" />
+    <Compile Include="FileLogBll.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileManager.Common\FileManager.Common.csproj">
+      <Project>{20908989-7773-493B-B1BD-764BE322A935}</Project>
+      <Name>FileManager.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManager.Dal\FileManager.Dal.csproj">
+      <Project>{77AF8E3A-7833-4EA0-9DF4-9DF17FDD36BB}</Project>
+      <Name>FileManager.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManager.DBUtility\FileManager.DBUtility.csproj">
+      <Project>{2CFDFCA0-A3FC-4DDE-8448-1769A6E24825}</Project>
+      <Name>FileManager.DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManager.Model\FileManager.Model.csproj">
+      <Project>{DA98B5E2-E01A-4072-AD0A-A113AC13BFF6}</Project>
+      <Name>FileManager.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

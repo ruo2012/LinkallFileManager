@@ -1,0 +1,138 @@
+﻿正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+已成功安装服务 Service1。
+正在日志 Application 中创建 EventLog 源 Service1...
+正在提交程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+正在日志 Application 中创建 EventLog 源 Service1...
+正在回滚程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在将事件日志还原到源 Service1 的前一状态。
+正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+正在日志 Application 中创建 EventLog 源 Service1...
+正在回滚程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在将事件日志还原到源 Service1 的前一状态。
+正在卸载程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在移除 EventLog 源 Service1。
+正在从系统中移除服务 Service1...
+已成功地从系统中移除服务 Service1。
+正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+已成功安装服务 Service1。
+正在日志 Application 中创建 EventLog 源 Service1...
+正在提交程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+正在日志 Application 中创建 EventLog 源 Service1...
+正在回滚程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在将事件日志还原到源 Service1 的前一状态。
+正在卸载程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在移除 EventLog 源 Service1。
+正在从系统中移除服务 Service1...
+已成功地从系统中移除服务 Service1。
+正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+已成功安装服务 Service1。
+正在日志 Application 中创建 EventLog 源 Service1...
+正在提交程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在卸载程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在移除 EventLog 源 Service1。
+正在从系统中移除服务 Service1...
+已成功地从系统中移除服务 Service1。
+试图停止服务 Service1。
+正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+已成功安装服务 Service1。
+正在日志 Application 中创建 EventLog 源 Service1...
+正在提交程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在卸载程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在移除 EventLog 源 Service1。
+正在从系统中移除服务 Service1...
+已成功地从系统中移除服务 Service1。
+试图停止服务 Service1。
+正在安装程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog
+正在安装服务 Service1...
+已成功安装服务 Service1。
+正在日志 Application 中创建 EventLog 源 Service1...
+正在提交程序集“E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.exe
+   logfile = E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\60\58\57\FileManager.MonitoringServiceSetup\bin\Debug\FileManager.MonitoringService.InstallLog

@@ -1,0 +1,36 @@
+Error#2016-05-19 22:39:20: 无法创建“D:\用户目录\Desktop\新建文件夹 (3)\201604080000012.D”，因为同名文件或目录已存在。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, DirectorySecurity dirSecurity)
+   在 System.IO.Directory.CreateDirectory(String path, DirectorySecurity directorySecurity)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 FileManager.FrmMain.UnzipFile1(String filePath) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager\FrmMain.cs:行号 2960
+Error#2016-05-19 22:39:23: 无法创建“D:\用户目录\Desktop\新建文件夹 (3)\201604080000013.D”，因为同名文件或目录已存在。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, DirectorySecurity dirSecurity)
+   在 System.IO.Directory.CreateDirectory(String path, DirectorySecurity directorySecurity)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 FileManager.FrmMain.UnzipFile1(String filePath) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager\FrmMain.cs:行号 2960
+Error#2016-05-19 22:39:23: 无法创建“D:\用户目录\Desktop\新建文件夹 (3)\2016040800000141.D”，因为同名文件或目录已存在。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, DirectorySecurity dirSecurity)
+   在 System.IO.Directory.CreateDirectory(String path, DirectorySecurity directorySecurity)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 FileManager.FrmMain.UnzipFile1(String filePath) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager\FrmMain.cs:行号 2960
+Error#2016-05-19 22:39:40: 无法创建“D:\用户目录\Desktop\新建文件夹 (3)\201604080000012.D”，因为同名文件或目录已存在。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, DirectorySecurity dirSecurity)
+   在 System.IO.Directory.CreateDirectory(String path, DirectorySecurity directorySecurity)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 FileManager.FrmMain.UnzipFile1(String filePath) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager\FrmMain.cs:行号 2960
+Error#2016-05-19 22:39:40: 无法创建“D:\用户目录\Desktop\新建文件夹 (3)\201604080000013.D”，因为同名文件或目录已存在。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, DirectorySecurity dirSecurity)
+   在 System.IO.Directory.CreateDirectory(String path, DirectorySecurity directorySecurity)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 FileManager.FrmMain.UnzipFile1(String filePath) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager\FrmMain.cs:行号 2960
+Error#2016-05-19 22:39:40: 无法创建“D:\用户目录\Desktop\新建文件夹 (3)\2016040800000141.D”，因为同名文件或目录已存在。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, DirectorySecurity dirSecurity)
+   在 System.IO.Directory.CreateDirectory(String path, DirectorySecurity directorySecurity)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 FileManager.FrmMain.UnzipFile1(String filePath) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager\FrmMain.cs:行号 2960

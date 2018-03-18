@@ -1,0 +1,6 @@
+Error#2018-03-12 00:24:09: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+   在 FileManager.DBUtility.DbHelperSQL.Query(String SQLString) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager.DBUtility\DbHelperSQL.cs:行号 580
+   在 FileManager.DAL.ServerSysConfigDal.GetModel(Int32 id) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager.Dal\ServerSysConfigDal.cs:行号 82
+   在 FileManager.BLL.ServerSysConfigBll.GetModel(Int32 id) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager.Bll\ServerSysConfigBll.cs:行号 52
+   在 FileManager.Bll.SystemBll.get_ServerConfigInfo() 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager.Bll\SystemBll.cs:行号 133
+   在 FileManager.Program.Main(String[] args) 位置 E:\C#WINFORM_2015\私单资料准备\CSkin\bak\360安全卫士DEMO-10.30更新\360安全卫士DEMO-10.30更新\bak_5_7\域账号登录版本\11\setupWithNoDB\FileManager\Program.cs:行号 62

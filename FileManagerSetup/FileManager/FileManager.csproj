@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7493E7FC-F2B4-4DD3-B6C9-85D39A34251E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FileManager</RootNamespace>
+    <AssemblyName>FileManager</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin, Version=14.8.26.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJSON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileAutoUpload.cs" />
+    <Compile Include="FileLogHelper.cs" />
+    <Compile Include="FileManagerServer.cs" />
+    <Compile Include="FileWinexploer.cs" />
+    <Compile Include="ForderSpecialControl.cs" />
+    <Compile Include="Form\FrmFileTransferNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileTransferNew.Designer.cs">
+      <DependentUpon>FrmFileTransferNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmProperty.Designer.cs">
+      <DependentUpon>FrmProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileProperty.Designer.cs">
+      <DependentUpon>FrmFileProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileHistoryRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileHistoryRecord.Designer.cs">
+      <DependentUpon>FrmFileHistoryRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmUserBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmUserBase.Designer.cs">
+      <DependentUpon>FrmUserBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileModifyName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileModifyName.Designer.cs">
+      <DependentUpon>FrmFileModifyName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmSystemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmSystemSetting.Designer.cs">
+      <DependentUpon>FrmSystemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmUserAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmUserAuth.Designer.cs">
+      <DependentUpon>FrmUserAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmListView.Designer.cs">
+      <DependentUpon>FrmListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmError.Designer.cs">
+      <DependentUpon>FrmError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileRename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileRename.Designer.cs">
+      <DependentUpon>FrmFileRename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmForderProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmForderProperty.Designer.cs">
+      <DependentUpon>FrmForderProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmUserEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmUserEdit.Designer.cs">
+      <DependentUpon>FrmUserEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmUserProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmUserProject.Designer.cs">
+      <DependentUpon>FrmUserProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmTipUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmTipUpload.Designer.cs">
+      <DependentUpon>FrmTipUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmLoginError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmLoginError.Designer.cs">
+      <DependentUpon>FrmLoginError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmTipLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmTipLogin.Designer.cs">
+      <DependentUpon>FrmTipLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmAccountInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmAccountInfo.Designer.cs">
+      <DependentUpon>FrmAccountInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmMessageBox.Designer.cs">
+      <DependentUpon>FrmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmCheckFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmCheckFile.Designer.cs">
+      <DependentUpon>FrmCheckFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmWait.Designer.cs">
+      <DependentUpon>FrmWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileHistoryLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileHistoryLog.Designer.cs">
+      <DependentUpon>FrmFileHistoryLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmDownLoadSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmDownLoadSelect.Designer.cs">
+      <DependentUpon>FrmDownLoadSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileSaveAs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileSaveAs.Designer.cs">
+      <DependentUpon>FrmFileSaveAs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileMultiHistoryLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileMultiHistoryLog.Designer.cs">
+      <DependentUpon>FrmFileMultiHistoryLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFriendTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFriendTip.Designer.cs">
+      <DependentUpon>FrmFriendTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileProgressBar.Designer.cs">
+      <DependentUpon>FrmFileProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmFileLogDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmFileLogDetail.Designer.cs">
+      <DependentUpon>FrmFileLogDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmAutoSaveSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmAutoSaveSetting.Designer.cs">
+      <DependentUpon>FrmAutoSaveSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmDominSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmDominSetting.Designer.cs">
+      <DependentUpon>FrmDominSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmWaitLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmWaitLogin.Designer.cs">
+      <DependentUpon>FrmWaitLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmUserDomin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmUserDomin.Designer.cs">
+      <DependentUpon>FrmUserDomin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainSingle.cs" />
+    <Compile Include="GetSystemIcon.cs" />
+    <Compile Include="ProcessStart.cs" />
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FileTmpFileHelper.cs" />
+    <Compile Include="SingleProcess.cs" />
+    <EmbeddedResource Include="Form\FrmFileTransferNew.resx">
+      <DependentUpon>FrmFileTransferNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmProperty.resx">
+      <DependentUpon>FrmProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileProperty.resx">
+      <DependentUpon>FrmFileProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileHistoryRecord.resx">
+      <DependentUpon>FrmFileHistoryRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmUserBase.resx">
+      <DependentUpon>FrmUserBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileModifyName.resx">
+      <DependentUpon>FrmFileModifyName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmSystemSetting.resx">
+      <DependentUpon>FrmSystemSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmUserAuth.resx">
+      <DependentUpon>FrmUserAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmListView.resx">
+      <DependentUpon>FrmListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmError.resx">
+      <DependentUpon>FrmError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileRename.resx">
+      <DependentUpon>FrmFileRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmForderProperty.resx">
+      <DependentUpon>FrmForderProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmUserEdit.resx">
+      <DependentUpon>FrmUserEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmUserProject.resx">
+      <DependentUpon>FrmUserProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmTipUpload.resx">
+      <DependentUpon>FrmTipUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmLoginError.resx">
+      <DependentUpon>FrmLoginError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmTipLogin.resx">
+      <DependentUpon>FrmTipLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmAccountInfo.resx">
+      <DependentUpon>FrmAccountInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmMessageBox.resx">
+      <DependentUpon>FrmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmCheckFile.resx">
+      <DependentUpon>FrmCheckFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmWait.resx">
+      <DependentUpon>FrmWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileHistoryLog.resx">
+      <DependentUpon>FrmFileHistoryLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmDownLoadSelect.resx">
+      <DependentUpon>FrmDownLoadSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileSaveAs.resx">
+      <DependentUpon>FrmFileSaveAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileMultiHistoryLog.resx">
+      <DependentUpon>FrmFileMultiHistoryLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFriendTip.resx">
+      <DependentUpon>FrmFriendTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileProgressBar.resx">
+      <DependentUpon>FrmFileProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmFileLogDetail.resx">
+      <DependentUpon>FrmFileLogDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmAutoSaveSetting.resx">
+      <DependentUpon>FrmAutoSaveSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmDominSetting.resx">
+      <DependentUpon>FrmDominSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmWaitLogin.resx">
+      <DependentUpon>FrmWaitLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmUserDomin.resx">
+      <DependentUpon>FrmUserDomin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="XmlConfig\System.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="32X32.ico" />
+    <Content Include="Dll\CSkin.dll" />
+    <Content Include="Dll\CSkin.xml" />
+    <Content Include="Dll\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Dll\LitJSON.dll" />
+    <None Include="Resources\icon_upload.png" />
+    <None Include="Resources\icon_history.png" />
+    <None Include="Resources\icon_editname.png" />
+    <None Include="Resources\icon_download.png" />
+    <None Include="Resources\icon_delweeklog.png" />
+    <None Include="Resources\icon_deluser.png" />
+    <None Include="Resources\icon_dellog.png" />
+    <None Include="Resources\icon_delete.png" />
+    <None Include="Resources\icon_check.png" />
+    <None Include="Resources\icon_authority.png" />
+    <None Include="Resources\icon_adduser.png" />
+    <None Include="Resources\icon_useredit.png" />
+    <None Include="Resources\file_management.png" />
+    <None Include="Resources\user_management.png" />
+    <None Include="Resources\logsearch.png" />
+    <None Include="PropertyImg\DeleteLarge.png" />
+    <None Include="Resources\20150524.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\200910031341168451.png" />
+    <None Include="Resources\companylogo_3 - 副本.png" />
+    <None Include="Resources\companylogo_3.png" />
+    <None Include="Resources\companyLogo_2.png" />
+    <None Include="Resources\login2_3.png" />
+    <None Include="Resources\button_login_normal.png" />
+    <None Include="Resources\button_login_hover.png" />
+    <None Include="Resources\button_login_down.png" />
+    <None Include="Resources\icon_setting1.png" />
+    <None Include="Resources\icon_setting.png" />
+    <None Include="Resources\properties_16x16.png" />
+    <None Include="Resources\login1.png" />
+    <None Include="Resources\companyLogo.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\success.png" />
+    <None Include="Resources\Unmark_32x321.png" />
+    <None Include="Resources\Unmark_32x32.png" />
+    <None Include="Resources\Export_32x321.png" />
+    <None Include="Resources\Group1.png" />
+    <None Include="Resources\transfer.png" />
+    <None Include="Resources\171.ico" />
+    <None Include="Resources\161.ico" />
+    <None Include="Resources\151.ico" />
+    <None Include="Resources\141.ico" />
+    <None Include="Resources\17.ico" />
+    <None Include="Resources\16.ico" />
+    <None Include="Resources\15.ico" />
+    <None Include="Resources\14.ico" />
+    <None Include="Resources\Remove_32x32.png" />
+    <None Include="Resources\Close_32x32.png" />
+    <None Include="Resources\Up.PNG" />
+    <None Include="Resources\Forward.PNG" />
+    <None Include="Resources\Back.PNG" />
+    <None Include="Resources\Details.PNG" />
+    <None Include="Resources\RenameLarge.png" />
+    <None Include="Resources\PropertiesLarge.bmp" />
+    <None Include="Resources\properties_32x32.png" />
+    <None Include="Resources\PasteLarge.png" />
+    <None Include="Resources\OptionsLarge.png" />
+    <None Include="Resources\NavigationPaneLarge.png" />
+    <None Include="Resources\DeleteLarge1.png" />
+    <None Include="Resources\CopyLarge.png" />
+    <None Include="Resources\DeleteLarge.png" />
+    <None Include="Resources\search_icon_normal1.png" />
+    <None Include="Resources\search_icon_hover1.png" />
+    <None Include="Resources\search_icon_down1.png" />
+    <None Include="Resources\app_icon_4011.png" />
+    <None Include="Resources\Go1.bmp" />
+    <None Include="Resources\up1.png" />
+    <None Include="Resources\Text.ico" />
+    <None Include="Resources\Save.ico" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\Redo.png" />
+    <None Include="Resources\Rectangular.ico" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\Line.ico" />
+    <None Include="Resources\Go.bmp" />
+    <None Include="Resources\folder_new.png" />
+    <None Include="Resources\Exit.ico" />
+    <None Include="Resources\Ellipse.ico" />
+    <None Include="Resources\edit-undo.png" />
+    <None Include="Resources\edit-redo.png" />
+    <None Include="Resources\down1.png" />
+    <None Include="Resources\20120818113914742_easyicon_cn_16.png" />
+    <None Include="Resources\cut1.png" />
+    <None Include="Resources\copy1.png" />
+    <None Include="Resources\AV_Accept.png" />
+    <None Include="Resources\Arrow.ico" />
+    <None Include="Resources\app_icon_401.png" />
+    <None Include="Resources\Accept.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileManager.Bll\FileManager.Bll.csproj">
+      <Project>{5385B87E-7460-43E3-8AC8-4C95080BC7AC}</Project>
+      <Name>FileManager.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManager.Common\FileManager.Common.csproj">
+      <Project>{20908989-7773-493B-B1BD-764BE322A935}</Project>
+      <Name>FileManager.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManager.Dal\FileManager.Dal.csproj">
+      <Project>{77AF8E3A-7833-4EA0-9DF4-9DF17FDD36BB}</Project>
+      <Name>FileManager.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManager.Model\FileManager.Model.csproj">
+      <Project>{DA98B5E2-E01A-4072-AD0A-A113AC13BFF6}</Project>
+      <Name>FileManager.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
